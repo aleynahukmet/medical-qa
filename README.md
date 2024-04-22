@@ -1,7 +1,5 @@
 # medical-qa
 
-# medical-qa
-
 ## 🚀 Overview
 
 This project focuses on developing a semantic search system for medical question answering utilizing pre-trained language models. The project utilizes datasets sourced from Hugging Face, containing medical question-answer pairs, which are processed to ensure compatibility with the chosen model architecture. The primary model employed for this task is the BAAI/bge-small-en-v1.5 model from the SentenceTransformers library.
