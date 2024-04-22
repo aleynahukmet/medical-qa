@@ -33,15 +33,20 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
 1. Install Sentence Transformers Library:
    Ensure you have the Sentence Transformers library installed. You can install it via pip if you haven't already:
+   
+   ```
+   pip install sentence-transformers
 
-2. Download the Model:
+   ```
+
+3. Download the Model:
    The model is hosted on the Hugging Face model hub at aleynahukmet/bge-medical-small-en-v1.5.
    ```
    pip install sentence-transformers
 
    ```
    
-3. Load the Model:
+4. Load the Model:
    Once the model is downloaded, you can load it into your Python environment using the SentenceTransformer class:
 
    ```
@@ -52,7 +57,7 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
    ```
 
-4. Encode Medical Texts:
+5. Encode Medical Texts:
    You can now use the loaded model to encode medical texts into fixed-dimensional vectors. For example:
 
    ```
@@ -64,7 +69,7 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
    ```
 
-5. Utilize Encoded Vectors:
+6. Utilize Encoded Vectors:
    The encoded vectors can be used for various downstream tasks, such as semantic search, clustering, or classification, depending on your specific application needs.
    
 ## Requirements:
