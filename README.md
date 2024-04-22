@@ -38,15 +38,8 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
    pip install sentence-transformers
 
    ```
-
-3. Download the Model:
-   The model is hosted on the Hugging Face model hub at aleynahukmet/bge-medical-small-en-v1.5.
-   ```
-   pip install sentence-transformers
-
-   ```
    
-4. Load the Model:
+2. Load the Model:
    Once the model is downloaded, you can load it into your Python environment using the SentenceTransformer class:
 
    ```
@@ -57,7 +50,7 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
    ```
 
-5. Encode Medical Texts:
+3. Encode Medical Texts:
    You can now use the loaded model to encode medical texts into fixed-dimensional vectors. For example:
 
    ```
@@ -69,7 +62,7 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
    ```
 
-6. Utilize Encoded Vectors:
+4. Utilize Encoded Vectors:
    The encoded vectors can be used for various downstream tasks, such as semantic search, clustering, or classification, depending on your specific application needs.
    
 ## Requirements:
