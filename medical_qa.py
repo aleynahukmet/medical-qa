@@ -167,7 +167,7 @@ output_path="./results/bge-small-en-v1.5_medical")
 
 
 # In[ ]:
-#model.save('/media/dejure/storage/dejure-proje/researches/denemeler/models/bge-small-en-v1.5')
+#model.save('./models/bge-small-en-v1.5')
 
 
 
