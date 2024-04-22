@@ -68,9 +68,9 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 ## Training:
 You can review the code for fine-tuning in this [notebook](https://github.com/aleynahukmet/medical-qa/blob/main/medical-qa.ipynb).
 
-## Results:
+## Evaluation:
 
-
+I used Translation Evaluator to evaluate the model on the test set, and it achieves ~0.887 (a 10-point imporovement from 0.78 for the base model).
    
 ## Requirements:
 
