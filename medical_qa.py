@@ -146,8 +146,8 @@ dev_evaluator = evaluation.TranslationEvaluator(test_question,test_answer, show_
 # In[20]:
 
 
+#define train loss and train loader
 train_loss = losses.CachedMultipleNegativesRankingLoss(model,mini_batch_size=32)
-#loss = losses.MatryoshkaLoss(model=model, loss=train_loss, matryoshka_dims=[1024, 768, 512, 256, 128])
 train_loader = datasets.NoDuplicatesDataLoader(train_data, batch_size=512)
 
 
