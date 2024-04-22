@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This project focuses on developing a semantic search system for medical question answering fine-tuning pre-trained language models. The project utilizes datasets sourced from Hugging Face, containing medical question-answer pairs, which are processed to ensure compatibility with the chosen model architecture. The base model fine-tuned for this task is the BAAI/bge-small-en-v1.5 model from the SentenceTransformers library , and and the details for the [fine-tuned model](https://huggingface.co/aleynahukmet/bge-medical-small-en-v1.5) can be found below.
+This project focuses on developing a semantic search system for medical question answering fine-tuning pre-trained language models. The project utilizes datasets sourced from Hugging Face, containing medical question-answer pairs, which are processed to ensure compatibility with the chosen model architecture. The base model fine-tuned for this task is the BAAI/bge-small-en-v1.5 model from the SentenceTransformers library, and the details for the [fine-tuned model](https://huggingface.co/aleynahukmet/bge-medical-small-en-v1.5) can be found below.
 
 ## Motivation
 
