@@ -27,6 +27,12 @@ This project incorporates multiple datasets sourced from the Hugging Face platfo
 
 After preprocessing, which involves removing irrelevant columns and renaming columns for uniformity, the datasets are concatenated into a single dataset. The resulting dataset contains 53,043 samples in the training split and 13,261 samples in the test split, with 'question' and 'answer' columns representing medical queries and their corresponding answers, respectively.
 
+## MODEL
+
+This project focuses on developing a semantic search system for medical question answering utilizing pre-trained language models. The project utilizes datasets sourced from Hugging Face, containing medical question-answer pairs, which are processed to ensure compatibility with the chosen model architecture. The primary model employed for this task is the BAAI/bge-small-en-v1.5 model from the SentenceTransformers library.
+Şurayı güncelleyelim, direkt pretrained modelleri kullanmışsın gibi geliyor kulağa biraz. 
+This project focuses on developing a semantic search system for medical question answering fine-tuning pre-trained language models. The project utilizes datasets sourced from Hugging Face, containing medical question-answer pairs, which are processed to ensure compatibility with the chosen model architecture. The base model fine-tuned for this task is the BAAI/bge-small-en-v1.5 model from the SentenceTransformers library , and and the details for the [fine-tuned model](https://huggingface.co/aleynahukmet/bge-medical-small-en-v1.5) can be found below.
+
 ## Requirements:
 
  ```
