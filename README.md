@@ -27,6 +27,46 @@ This project incorporates multiple datasets sourced from the Hugging Face platfo
 
 After preprocessing, which involves removing irrelevant columns and renaming columns for uniformity, the datasets are concatenated into a single dataset. The resulting dataset contains 53,043 samples in the training split and 13,261 samples in the test split, with 'question' and 'answer' columns representing medical queries and their corresponding answers, respectively.
 
+## Usage
+
+The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-small-en-v1.5](https://huggingface.co/aleynahukmet/bge-medical-small-en-v1.5/), and it's easy to use it with the Sentence Transformers library.
+
+1. Install Sentence Transformers Library:
+   Ensure you have the Sentence Transformers library installed. You can install it via pip if you haven't already:
+
+2. Download the Model:
+   The model is hosted on the Hugging Face model hub at aleynahukmet/bge-medical-small-en-v1.5.
+   ```
+   pip install sentence-transformers
+
+   ```
+   
+3. Load the Model:
+   Once the model is downloaded, you can load it into your Python environment using the SentenceTransformer class:
+
+   ```
+   from sentence_transformers import SentenceTransformer
+   
+   model_name = "aleynahukmet/bge-medical-small-en-v1.5"
+   model = SentenceTransformer(model_name)
+
+   ```
+
+4. Encode Medical Texts:
+   You can now use the loaded model to encode medical texts into fixed-dimensional vectors. For example:
+
+   ```
+   ### Example medical text
+   medical_text = "A 45-year-old male presents with chest pain and shortness of breath."
+   
+   ### Encode the medical text
+   encoded_text = model.encode(medical_text)
+
+   ```
+
+5. Utilize Encoded Vectors:
+   The encoded vectors can be used for various downstream tasks, such as semantic search, clustering, or classification, depending on your specific application needs.
+   
 ## Requirements:
 
  ```
@@ -43,6 +83,7 @@ If you don't have the requirements installed, they can be installed with the fol
 pip install -r requirements.txt
 
 ```
+
 
 
 
