@@ -66,7 +66,7 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
    The encoded vectors can be used for various downstream tasks, such as semantic search, clustering, or classification, depending on your specific application needs.
 
 ## Training:
-You can review the code for fine-tuning in this [repository](https://github.com/aleynahukmet/medical-qa/blob/main/medical-qa.ipynb)
+You can review the code for fine-tuning in this [notebook](https://github.com/aleynahukmet/medical-qa/blob/main/medical-qa.ipynb).
    
 ## Requirements:
 
