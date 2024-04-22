@@ -67,6 +67,10 @@ The model is hosted on the Hugging Face model hub at [aleynahukmet/bge-medical-s
 
 ## Training:
 You can review the code for fine-tuning in this [notebook](https://github.com/aleynahukmet/medical-qa/blob/main/medical-qa.ipynb).
+
+## Results:
+
+
    
 ## Requirements:
 
