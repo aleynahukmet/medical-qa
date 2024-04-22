@@ -70,7 +70,7 @@ You can review the code for fine-tuning in this [notebook](https://github.com/al
 
 ## Evaluation:
 
-I used Translation Evaluator to evaluate the model on the test set, and it achieves ~0.887 (a 10-point imporovement from 0.78 for the base model).
+I used Translation Evaluator to evaluate the model on the test set, and it achieved ~0.887 (a 10-point improvement from 0.78 for the base model).
    
 ## Requirements:
 
